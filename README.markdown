@@ -31,7 +31,7 @@ And so on. If you've asked yourself these questions, then this book is for you. 
 For the sake of pedagogy, this book's sample code usually presents itself in a single main.m file. This is not how people normally develop iOS or Cocoa applications, or *should* be developing them, but it provides a great way of presenting a single big idea. 
 
 It's hard to tell a story when readers must look through 5 or 7 or 9 individual files at once. Offering a single file concentrates that story, allowing access to that idea in a single chunk.
-These samples are not intended as stand-alone applications. They are there to demonstrate a single recipe and a single idea. A main.m file with a central presentation reveals the implementation story in one place. 
+These samples are not intended as stand-alone applications. They are there to demonstrate a single recipe and a single idea. A main.m file with a central presentation reveals the implementation story in one place. 
 
 Readers can study these concentrated ideas and transfer them into normal application structures, using the standard file structure and layout. The presentation in this book does not produce code in a day-to-day best practices approach. Instead, it offers concise solutions that you can incorporate back into your work as needed.
 
@@ -45,3 +45,7 @@ Second, standard implementation and header files are provided when the class its
 You should be able to build these projects for the simulator or use your team provision to build and deploy to devices. Before compiling, make sure you select a deployment target using the pop-up menu at the top-left of the Xcode window. 
 
 For the most part, the samples for this book use a single application identifier, com.sadun.helloworld. This book uses one identifier to avoid clogging up your iOS device with dozens of samples at once. Each sample replaces the previous one, ensuring that SpringBoard remains relatively uncluttered. If you want to install several samples at once, simply edit the identifier, adding a unique suffix, such as com.sadun.helloworld.table-edits. You'll want to edit the display name so you can tell instantly which project is which. Samples use the same icons and launch images as well.
+
+<h3>License</h3>
+
+Code is under BSD License. See [LICENSE](../blob/master/LICENSE).
